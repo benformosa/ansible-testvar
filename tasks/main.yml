@@ -1,0 +1,4 @@
+---
+- name: Display test variable
+  debug:
+    var: testvar_my_test_var

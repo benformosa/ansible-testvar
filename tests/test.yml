@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - ansible-testvar
+
+
+- hosts: localhost
+  remote_user: root
+  roles:
+    - ansible-testvar
+  vars:
+    testvar_my_test_var: Set in Playbook
