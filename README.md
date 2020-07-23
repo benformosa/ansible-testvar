@@ -14,6 +14,10 @@ See https://access.redhat.com/solutions/3606501
     testvar_my_test_var: "Value set in Playbook"
 ```
 
+## License
+
+Apache-2.0
+
 ## Author Information
 
 Ben Formosa
